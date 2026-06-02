@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64">
+  <defs>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7E55E8"/>
+      <stop offset="1" stop-color="#00B595"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7E55E8"/>
+      <stop offset="1" stop-color="#00B595"/>
+    </linearGradient>
+    <filter id="halo" x="-80%" y="-80%" width="260%" height="260%">
+      <feDropShadow dx="0" dy="0" stdDeviation="5" flood-color="#7E55E8" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="10" flood-color="#00B595" flood-opacity="0.30"/>
+    </filter>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="64" fill="#FAF7F2"/>
+
+  <!-- two broken hairline segments -->
+  <rect x="60"  y="31" width="350" height="2" rx="1" fill="url(#aurora)" opacity="0.65"/>
+  <rect x="490" y="31" width="350" height="2" rx="1" fill="url(#aurora)" opacity="0.65"/>
+
+  <!-- sparkles riding the segments: violet on the left, teal on the right -->
+  <g filter="url(#glow)">
+    <path transform="translate(150,32) scale(0.65)" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10 Z" fill="#7E55E8"/>
+    <path transform="translate(250,32) scale(1.05)" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10 Z" fill="#7E55E8"/>
+    <path transform="translate(350,32) scale(0.55)" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10 Z" fill="#7E55E8"/>
+    <path transform="translate(550,32) scale(0.55)" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10 Z" fill="#00B595"/>
+    <path transform="translate(650,32) scale(1.05)" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10 Z" fill="#00B595"/>
+    <path transform="translate(750,32) scale(0.65)" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10 Z" fill="#00B595"/>
+  </g>
+
+  <!-- centered bolt with halo -->
+  <g transform="translate(429,11) scale(1.3)" filter="url(#halo)">
+    <path d="M18,2 L6,18 L14,18 L13,30 L26,14 L18,14 Z" fill="url(#bolt)"/>
+  </g>
+</svg>
