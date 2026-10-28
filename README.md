@@ -1,64 +1,70 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Christen George-McFerrin — demand AI studio" width="100%"/>
-
-<br/><br/>
-
-[![demand AI studio](https://img.shields.io/badge/demand_AI_studio-demandai.studio-7E55E8?style=flat-square&labelColor=1B1A1F)](https://demandai.studio)&nbsp;&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-7E55E8?style=flat-square&logo=linkedin&logoColor=00B595&labelColor=1B1A1F)](https://linkedin.com/in/christengeorgemcferrin)&nbsp;&nbsp;![Houston, TX](https://img.shields.io/badge/Houston,_TX-7E55E8?style=flat-square&labelColor=1B1A1F)
+<img src="./banner.svg" alt="Christen George-McFerrin — AI automation builder for GTM teams" width="100%"/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Bricolage+Grotesque&size=24&duration=3200&pause=900&color=7E55E8&background=FAF7F200&center=true&vCenter=true&width=640&height=50&lines=AI+education%2C+consulting+%26+builds;for+modern+teams;Practitioner%2C+not+vendor;Built+with+Claude" alt="AI education, consulting & builds for modern teams"/>
+[**demand AI studio**](https://demandai.studio) &nbsp;·&nbsp; [**LinkedIn**](https://linkedin.com/in/christengeorgemcferrin) &nbsp;·&nbsp; Houston, TX
 
 </div>
 
+I build AI automations and custom tools for go-to-market teams: working systems that connect the messy middle between an idea, the tools a team already uses, and a result someone can review.
+
+I’m the founder of [**demand AI studio**](https://demandai.studio), where I turn marketing and revenue workflows into documented, human-supervised systems that clients own outright.
+
 <img src="./divider.svg" alt="" width="100%"/>
 
-## What I'm Building
+## What I build
 
-Live, open tools you can open in one click — plus the templates other teams clone.
+- **GTM workflow automation** — research, enrichment, scoring, routing, content operations, reporting, and the handoffs between them
+- **Purpose-built AI tools** — small apps that fit the way a team actually works instead of forcing the work into another general-purpose platform
+- **Agent infrastructure** — context, evaluations, memory, permissions, observability, and approval gates for systems that need to keep working after the demo
+- **AI-readable marketing systems** — websites, knowledge bases, analytics, and AEO measurement designed for people and answer engines
 
-| Project | What it is | Stack |
+<img src="./divider.svg" alt="" width="100%"/>
+
+## Selected open work
+
+| Project | What it proves | Built with |
 |---|---|---|
-| **[dead-habits](https://github.com/c-b-g-m/dead-habits)** &nbsp;·&nbsp; [live ↗](https://dead-habits.vercel.app) | A self-study game that teaches AI fluency by making you *prove* it — you advance by writing real prompts an AI grades against a rubric, not by picking answers | `Next.js` `Claude` `TypeScript` |
-| **[automation-process-builder](https://github.com/c-b-g-m/automation-process-builder)** &nbsp;·&nbsp; [live ↗](https://automate.demandai.studio) | Document an automation before you build it — answer 8 questions, get a structured playbook. Zero AI calls; it all runs in your browser, free to fork | `HTML` `JavaScript` `Supabase` |
-| **[gtm-ai-fluency-kit](https://github.com/c-b-g-m/gtm-ai-fluency-kit)** &nbsp;·&nbsp; [live ↗](https://demandai.studio) | Free AI-fluency assessment + role-specific 30/60/90 learning plans for Marketing, Sales/RevOps, and Support teams | `Python` `Claude` |
-| **[pov-pipeline-template](https://github.com/c-b-g-m/pov-pipeline-template)** ⭐ | Scans the news in your field, drafts a sharp opinion piece on each story, and routes every draft to a human before anything goes live. Configurable to any industry | `Python` `Claude` `GitHub Actions` |
-| **[narrative-brief-engine-template](https://github.com/c-b-g-m/narrative-brief-engine-template)** | A 5-stage pipeline that turns archive mining + LinkedIn signals into polished prospecting intelligence briefs | `Python` `Claude` `Apify` |
-| **[track-anything](https://github.com/c-b-g-m/track-anything)** | A clone-and-build template for content-tracking pipelines (RSS + LLM + email/dashboard) — ships both Python and TypeScript implementations | `Python` `TypeScript` `Supabase` |
+| **[automation-process-builder](https://github.com/c-b-g-m/automation-process-builder)** · [live ↗](https://automate.demandai.studio) | Turns an unstructured task into an honest automation recommendation and an implementation-ready playbook—with zero AI calls | JavaScript · Supabase |
+| **[gha-automation-patterns](https://github.com/c-b-g-m/gha-automation-patterns)** | Ten annotated patterns for running scheduled AI automations on GitHub Actions, including the tradeoffs that usually get skipped | Python · GitHub Actions |
+| **[pov-pipeline-template](https://github.com/c-b-g-m/pov-pipeline-template)** | Monitors a field, drafts a point of view in a defined voice, and stops for human approval before anything can publish | Python · LLM APIs · GitHub Actions |
+| **[narrative-brief-engine-template](https://github.com/c-b-g-m/narrative-brief-engine-template)** | A five-stage research and enrichment pipeline that assembles buying committees and produces prospecting intelligence briefs | Python · Apify · HTML |
+| **[html-social-graphic-card-render](https://github.com/c-b-g-m/html-social-graphic-card-render)** | A reusable text-to-image utility that renders slot-filled HTML cards to PNG through headless Chrome | TypeScript · Playwright |
+| **[dead-habits](https://github.com/c-b-g-m/dead-habits)** · [live ↗](https://dead-habits.vercel.app) | An AI-fluency game that grades real prompts against a rubric instead of rewarding multiple-choice guessing | Next.js · TypeScript · LLM APIs |
 
 <img src="./divider.svg" alt="" width="100%"/>
 
-## Selected Private Work
+## Current systems
 
-The systems below are closed-source, but they're where the deeper engineering lives — agentic pipelines with human-in-the-loop gates, client isolation, and learning loops that adapt to how their operator actually thinks.
+Most of my production work is private. These are the patterns I’m actively building and operating:
 
-- **second-brain** — a personal knowledge base with one rule: nothing is stored generically. Every article, podcast, and PDF is rewritten through one marketing leader's executive lens before it's saved, and it sharpens from her feedback over time. *Python · Claude · Supabase · pgvector*
-- **personal-operating-system** — runs one person's brand and two businesses as a single coordinated assistant. Nothing acts on its own: every draft is scored before it ships, each business stays walled off from the others, and the system learns from corrections. *Python · Claude · Supabase · GitHub Actions*
-- **dais · cazimi POV pipelines** — daily commentary engines that draft opinionated takes in a founder's voice and hand each one to a human for approval — no auto-posting. *Python · Claude · Firecrawl · Buffer*
-- **clara-port** — the marketing brain for an HR-tech platform: one private source of truth an AI assistant must read first, so every email and campaign sounds like the brand, never generic vendor fluff. *Python · Claude · HubSpot*
+- A coordinated operating system for multiple businesses, with isolated context, pre-flight scoring, approval gates, and correction-driven learning
+- Human-reviewed executive and LinkedIn content workflows that move approved ideas through drafting, scheduling, analytics, and iteration without auto-publishing
+- AEO and competitive-visibility systems that measure how brands appear across AI answer engines and turn findings into specific site and content changes
+- Analytics, advertising, CRM, and social integrations that give AI agents narrowly scoped access through APIs and MCP servers
 
-<img src="./divider.svg" alt="" width="100%"/>
-
-## Stack
-
-![Python](https://img.shields.io/badge/Python-7E55E8?style=flat-square&logo=python&logoColor=00B595&labelColor=1B1A1F)&nbsp;![TypeScript](https://img.shields.io/badge/TypeScript-7E55E8?style=flat-square&logo=typescript&logoColor=00B595&labelColor=1B1A1F)&nbsp;![Next.js](https://img.shields.io/badge/Next.js-7E55E8?style=flat-square&logo=nextdotjs&logoColor=00B595&labelColor=1B1A1F)&nbsp;![Node.js](https://img.shields.io/badge/Node.js-7E55E8?style=flat-square&logo=nodedotjs&logoColor=00B595&labelColor=1B1A1F)&nbsp;![Supabase](https://img.shields.io/badge/Supabase-7E55E8?style=flat-square&logo=supabase&logoColor=00B595&labelColor=1B1A1F)&nbsp;![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-7E55E8?style=flat-square&logo=githubactions&logoColor=00B595&labelColor=1B1A1F)&nbsp;![n8n](https://img.shields.io/badge/n8n-7E55E8?style=flat-square&logo=n8n&logoColor=00B595&labelColor=1B1A1F)&nbsp;![Claude](https://img.shields.io/badge/Claude_(Anthropic)-7E55E8?style=flat-square&labelColor=1B1A1F&color=7E55E8)
+Across them, the rules stay the same: **fail visibly, keep a person at consequential decisions, separate client data, measure the output, and document the handoff.**
 
 <img src="./divider.svg" alt="" width="100%"/>
 
-## Activity
+## Working stack
+
+| Layer | Tools |
+|---|---|
+| **Apps** | TypeScript · React · Next.js · Astro · Python |
+| **Automation** | GitHub Actions · Make · n8n · Zapier |
+| **AI + data** | Anthropic · OpenAI · Supabase · Firecrawl · MCP |
+| **GTM systems** | HubSpot · Salesforce · GA4 · LinkedIn APIs |
+| **Delivery** | Vercel · evaluations · monitoring · operator documentation |
+
+<img src="./divider.svg" alt="" width="100%"/>
 
 <div align="center">
 
-<img height="170" src="https://streak-stats.demolab.com?user=c-b-g-m&background=FAF7F2&ring=7E55E8&fire=00B595&currStreakLabel=5E3FCB&sideLabels=1B1A1F&dates=54515E&stroke=7E55E8&border=7E55E8" alt="Contribution streak"/>&nbsp;&nbsp;<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=c-b-g-m&layout=compact&card_width=320&bg_color=FAF7F2&title_color=7E55E8&text_color=1B1A1F&border_color=7E55E8&hide_border=false" alt="Top languages"/>
+### Have a GTM workflow that should work better?
 
-</div>
-
-<img src="./divider.svg" alt="" width="100%"/>
-
-<div align="center">
-
-<sub>Built by <strong>demand AI studio</strong> &nbsp;·&nbsp; Houston, TX &nbsp;·&nbsp; Powered by Claude (Anthropic)</sub>
-
+[**See what I build at demand AI studio →**](https://demandai.studio)&nbsp;&nbsp;&nbsp;[**Connect on LinkedIn →**](https://linkedin.com/in/christengeorgemcferrin)
 
 </div>
